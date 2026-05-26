@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BGD-290825-36_2026</title>
+  <style>
+    :root {
+      --lassimo-blue: #363C7E;
+      --lassimo-orange: #FFB580;
+      --green: #008000;
+      --red: #ff0000;
+      --text: #4a4a4a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      background: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .page {
+      width: min(82vw, 720px);
+      min-height: 100vh;
+      padding: clamp(18px, 5vw, 42px) 0 clamp(20px, 5vw, 42px);
+    }
+
+    .logo {
+      display: block;
+      width: min(78%, 430px);
+      height: auto;
+      margin: 0 auto clamp(42px, 7vw, 78px);
+    }
+
+    .verified {
+      color: var(--green);
+      font-weight: 700;
+      font-size: clamp(24px, 5vw, 41px);
+      line-height: 1.1;
+      margin-bottom: clamp(28px, 5vw, 44px);
+    }
+
+    .verification-text {
+      font-size: clamp(20px, 4.2vw, 35px);
+      line-height: 1.42;
+      color: var(--text);
+      margin-bottom: clamp(54px, 9vw, 90px);
+    }
+
+    .green {
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    .red {
+      color: var(--red);
+      font-weight: 700;
+    }
+
+    .company {
+      color: var(--lassimo-blue);
+      font-weight: 800;
+      font-size: clamp(31px, 6vw, 55px);
+      line-height: 1.1;
+      margin-bottom: clamp(34px, 6vw, 52px);
+      letter-spacing: -0.03em;
+    }
+
+    .details {
+      font-size: clamp(24px, 4.8vw, 38px);
+      line-height: 1.42;
+      margin-bottom: clamp(70px, 12vw, 115px);
+    }
+
+    .details strong {
+      font-weight: 800;
+    }
+
+    .footer {
+      font-size: clamp(20px, 4vw, 31px);
+      line-height: 1.38;
+      color: #5d5d5d;
+      margin-bottom: clamp(54px, 9vw, 80px);
+    }
+
+    .footer-title {
+      color: #111111;
+      font-weight: 800;
+      margin-bottom: clamp(20px, 4vw, 30px);
+    }
+
+    .original {
+      color: var(--red);
+      font-weight: 800;
+      text-align: center;
+      font-size: clamp(22px, 4.5vw, 34px);
+      line-height: 1.2;
+    }
+
+    a {
+      color: #006fc9;
+      text-decoration: none;
+    }
+
+    @media (min-width: 900px) {
+      .page {
+        width: 760px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <img src="LOGO LASSIMO.png" alt="LASSIMO Logo" class="logo">
+
+    <div class="verified">Product Verified ✅</div>
+
+    <div class="verification-text">
+      If you see below the <span class="green">same batch number</span><br>
+      and product details as your COA, Lassimo<br>
+      France verifies that you have received an<br>
+      <span class="red">original</span> product abiding by the<br>
+      specifications and the COA you received<br>
+      from your trusted sales person.
+    </div>
+
+    <div class="company">LASSIMO FRANCE</div>
+
+    <div class="details">
+      <strong>Product Description:</strong> <span class="green">Lasmooth BGD</span><br>
+      <strong>INCI:</strong> Sodium PCA<br>
+      <strong>Application:</strong> Personal Care<br>
+      <strong>Batch No.:</strong> <span class="green">BGD-290825-36</span><br>
+      <strong>Packaging:</strong> 25 kg<br>
+      <strong>Prod. Date:</strong> <span class="green">30/01/2026</span><br>
+      <strong>Exp. Date:</strong> <span class="green">29/01/2029</span>
+    </div>
+
+    <div class="footer">
+      <div class="footer-title">LASSIMO</div>
+      Head quarters:<br>
+      8 rue du Faubourg Poissonnière<br>
+      75010, Paris, France<br>
+      Tel : <a href="tel:+33184254473">+33 (0) 1 84 25 44 73</a><br>
+      info@lassimo.com
+    </div>
+
+    <div class="original">ORIGINAL PRODUCT</div>
+  </main>
+</body>
+</html>
